@@ -1,0 +1,20 @@
+/* Write an ES2015 Version */
+
+const PI = 3.14;
+PI = 4.78; // Error
+
+1. What is the difference between var and let?
+- let allows you to declare variables that are limited to the scope of a block statement, 
+or expression on which it is used, unlike the var keyword, which declares a variable globally, 
+or locally to an entire function regardless of block scope.
+
+2. What is the difference between var and const?
+- Variables declared with var are in the function scope. Variables declared as let are in the block scope. 
+Variables declared as const are in the block scope.
+
+3. What is the difference between let and const?
+- The scope of a let variable is block scope. The scope of a const variable is block scope. 
+It can be updated and re-declared into the scope. It can be updated but cannot be re-declared into the scope.
+
+4. What is hoisting?
+- Hoisting allows functions to be safely used in code before they are declared.
